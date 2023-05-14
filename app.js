@@ -7,7 +7,6 @@ const errorHandler = require("./middleWare/errorHandler");
 //middleWear
 app.use(express.json());
 app.use("/api/v1", main);
-app.use(express.static("./public"));
 //notFound
 app.use(notFound);
 //errorHandler
